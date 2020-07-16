@@ -12,7 +12,7 @@ def my_func(x):
             my_float_list.append(float(elem))
         except:
             pass
-    return sum(my_float_list), (set(x))
+    return print('Сумма числовых параметров: ',sum(my_float_list)), print('Уникальные параметры: ', (set(x)))
 
 
 print(my_func(sys.argv[1:]))
