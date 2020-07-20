@@ -46,6 +46,7 @@ def json_writer():
 get_text(sys.argv[2])
 # char_counter()
 json_writer()
+#
 
 # 'https://code.google.com/archive/p/pypsum/'
 
